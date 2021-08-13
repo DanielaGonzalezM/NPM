@@ -1,9 +1,9 @@
 {
 	"name": "fcc-learn-npm-package-json",
-	"author": "Daniela Gonzalez",
-	"description": "A project that does something awesome",
 	"dependencies": {
-		"express": "^4.17.1"
+		"package-name": "version",
+		"express": "^4.17.1",
+		"moment":"2.14.0"
 	},
 	"main": "server.js",
 	"scripts": {
@@ -12,5 +12,11 @@
 	"repository": {
 		"type": "git",
 		"url": "https://idontknow/todo.git"
-	}
+	},
+	"version": "1.2.0",
+	"author": "Daniela Gonzalez",
+	"description": "A project that does something awesome",
+	"keywords": [ "descriptive", "related", "words","freecodecamp" ],
+	"license": "MIT"
 }
+
